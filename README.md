@@ -80,10 +80,10 @@ I decided to use these as I was familiar with using them.
 ```
 Model                   : R squared |
 ------------------------|-----------|
-KNeighbors              :  98.400 % |
-LinearRegression        :  96.800 % |
-DecisionTreeRegressor   :  98.031 % |
-RandomForestRegressor   :  98.646 % |
+KNeighbors              :  98.880 % |
+LinearRegression        :  100 %    |
+DecisionTreeRegressor   :  91.280 % |
+RandomForestRegressor   :  97.989 % |
 ```
 - I decided to chose the KNN Regressor as it had my best metrics easily
 ---
