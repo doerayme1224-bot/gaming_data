@@ -1,4 +1,4 @@
-# Wine Classification Projections
+# Gaming Project
 ## Objective: 
 The objective of this analysis is to be able to provide a model which can predict multiple facets related to gaming, for now, I'll evaluate a gamers phsychological health based on their SPIN (Social Phobia Inventory) score, which is basically a metric used to evaluate social anxiety. This will be useful for some reasons...
 - See how much of a link their is between gaming and someones social anxiety
