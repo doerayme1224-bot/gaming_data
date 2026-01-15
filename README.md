@@ -39,21 +39,25 @@ sub2['GADE'] = sub2['GADE'].cat.codes
 ## PART 2: Exploratory Data Analysis (EDA)
 #### Visual 1:
 ![Heatmap](visuals/heatmap.png)
+
 this is a Heatmap which shows the correlation coefficients of all the features with the target variable `SPIN_T`. Important as it can help us decide which features to use for modeling
 
 ---
 #### Visual 2:
 ![barplot](visuals/barplot1.png)
+
 A barplot which shows us a Persons Average SPIN score based on their answer to question 6, which is "Fear of embarrassment causes me to avoid doing things or speaking to people.". Shows us that this answer very strongly correlates with a surveyee's SPIN score on average
 
 ---
 #### Visual 3:
 ![barplot 2](visuals/barplot2.png)
+
 A barplot which shows us the Persons Average SPIN score based on the game that they play most often. shows us that there doesn't really seem to be a srong correlation between the game a person plays and their SPIN score. Though some games may have larger ranges, that could be explained do to some of the games being a lot more popular than others, meaning that there is more data for them and a wider range of answers.
 
 ---
 #### Visual 4:
 ![barplot 3](visuals/barplot3.png)
+
 A barplot which shows us a Persons Average SPIN score based on their answer to question 6, which is "I am afraid of people in authority". Even though this question has the lowest correlation coefficient with the target, it shows us that they still have quite a strong association
 
 
