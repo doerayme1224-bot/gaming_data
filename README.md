@@ -16,7 +16,7 @@ Some of the columns that I had, I decided to drop, because they would've been ve
 ```python
 sub1 = df.drop(['S. No.','earnings','whyplay','League','highestleague', 'Birthplace', 'Residence', 'Reference', 'Playstyle', 'accept', 'Residence_ISO3', 'Birthplace_ISO3'], axis = 1)
 ```
-- this code uses drop on the data frame to get rid of columns I thought would've been hard to work with, abd I saved it into a subset called `sub1`
+- this code uses drop on the data frame to get rid of columns I thought would've been hard to work with, and I saved it into a subset called `sub1`
 
 #### Step 2: dropping na values
 There were na values that I had to drop as they wouldn't be processed by the model, there also weren't to many which is why it is a good idea.
